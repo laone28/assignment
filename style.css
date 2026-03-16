@@ -1,0 +1,14 @@
+background{
+ background-image: url(img\ 1.webp);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+header{
+    color: blue;
+}
+table{
+    width:100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
