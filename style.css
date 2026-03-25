@@ -1,6 +1,11 @@
+p{
+    text-align: center;
+    color: aliceblue;
+}
 body{
-    background: rgba(0,0,0, 0.6), url(achuu.webp);
+     background: rgba(58, 55, 55, 0.6), url(achuu.webp);
     font-size: 15px;
+    background-size: cover;
 }
 header{
     color: darkblue;
@@ -8,22 +13,6 @@ header{
 table{
     width:100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.navbar{
-    float: right;
-    height:70px;
-}
-ul{
-    float:right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-ul li{
-    margin-right: 62px;
-    margin-top: auto;
-    font-size: 15px;
 }
 
 ul li a:hover{
