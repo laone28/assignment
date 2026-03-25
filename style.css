@@ -1,13 +1,7 @@
-
 body{
-    text-align: center
+    background-image: url(achuu.webp);
+    background: rgba(0,0,0,0.5);
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(241, 241, 248);
-    background: rgba(0,0,0,0.5),url(achuu.webp)
-    background-position: center;
-    background-size: cover;
-    
 }
 header{
     color: darkblue;
@@ -22,17 +16,29 @@ table{
     height:70px;
 }
 ul{
-    float: left;
-    disply: flex;
+    float:right;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 ul li{
-    margin-left: 62px;
-    margin top: 27px;
+    margin-right: 62px;
+    margin-top: auto;
     font-size: 15px;
 }
 
 ul li a:hover{
     color: #ff7297
 }
+ table{
+    width: 100;
+ }
+ th{
+    font-weight: bold;
+    border: 3px solid black;
+ }
+ td{
+    border:3px solid black;
+ }
+
+
