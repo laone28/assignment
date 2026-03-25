@@ -1,6 +1,6 @@
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aliceblue;
+    color: rgb(239, 242, 245);
 }
 body{
      background:rgba(0,0,0,0.7)url(achuu.webp);
@@ -20,11 +20,13 @@ ul li a:hover{
 }
  table{
     width: 100;
+    text-size-adjust: 20px;
  }
  th{
     font-weight: bold;
     border: 3px solid black;
-    color: darkblue;
+    color: rgb(1, 1, 14);
+
  }
  td{
     border:3px solid black;
