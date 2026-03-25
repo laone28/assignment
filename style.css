@@ -1,7 +1,6 @@
 body{
-    background-image: url(achuu.webp);
-    background: rgba(0,0,0,0.5);
-    font-size: 50px;
+    background: rgba(0,0,0, 0.6), url(achuu.webp);
+    font-size: 15px;
 }
 header{
     color: darkblue;
@@ -12,7 +11,7 @@ table{
 }
 
 .navbar{
-    float: left;
+    float: right;
     height:70px;
 }
 ul{
