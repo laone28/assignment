@@ -1,11 +1,10 @@
 p{
-    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
 }
 body{
      background:rgba(0,0,0,0.7)url(achuu.webp);
     font-size: 15px;
-    background-size: cover;
     background-blend-mode: darken;
 }
 header{
@@ -25,9 +24,13 @@ ul li a:hover{
  th{
     font-weight: bold;
     border: 3px solid black;
+    color: darkblue;
  }
  td{
     border:3px solid black;
+    color: darkblue;
  }
+
+ 
 
 
