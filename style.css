@@ -3,9 +3,10 @@ p{
     color: aliceblue;
 }
 body{
-     background: rgba(58, 55, 55, 0.6), url(achuu.webp);
+     background:rgba(0,0,0,0.7)url(achuu.webp);
     font-size: 15px;
     background-size: cover;
+    background-blend-mode: darken;
 }
 header{
     color: darkblue;
