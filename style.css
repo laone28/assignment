@@ -1,11 +1,12 @@
 
 body{
-    position: relative;
-    font-size: larger;
+    text-align: center
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(6, 2, 39);
-    background-image: url(achuu.webp)
-    
+    color: rgb(241, 241, 248);
+    background: rgba(0,0,0,0.5),url(achuu.webp)
+    background-position: center;
+    background-size: cover;
     
 }
 header{
@@ -14,4 +15,24 @@ header{
 table{
     width:100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar{
+    float: left;
+    height:70px;
+}
+ul{
+    float: left;
+    disply: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin-left: 62px;
+    margin top: 27px;
+    font-size: 15px;
+}
+
+ul li a:hover{
+    color: #ff7297
 }
