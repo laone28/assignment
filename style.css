@@ -1,4 +1,4 @@
-   .hero {
+   body{
             background: url(busi.jpg) no-repeat center/cover;
             height: 80vh;
             color: white;
@@ -19,6 +19,13 @@
             color: white;
             text-align: center;
             padding: 15px;
+        }
+        .card {
+            background: #f4f4f4;
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
         }
 
 
