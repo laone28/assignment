@@ -7,31 +7,9 @@ body{
     font-size: 15px;
     background-blend-mode: darken;
 }
-header{
-    color: darkblue;
-}
-table{
-    width:100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 ul li a:hover{
     color: #ff7297
 }
- table{
-    width: 100;
-    text-size-adjust: 20px;
- }
- th{
-    font-weight: bold;
-    border: 3px solid black;
-    color: rgb(1, 1, 14);
-
- }
- td{
-    border:3px solid black;
-    color: darkblue;
- }
 
  
 
