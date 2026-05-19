@@ -17,64 +17,161 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
     <header>
-        <h1>PACKAGES</h1>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        <nav>
-            <ul class="navbar-nav">
-            <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Service.html">Service</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="Gallery.html">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Package.html">Packages</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                          <a class="nav-link" href="Contact.html">Contact</a>
-                        </li>
-                    </ul>
-        </nav>
+
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <div class="container">
+
+         <a class="navbar-brand" href="#">PACKAGES OFFERED</a>
+
+         <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="Service.html">Service</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Gallery.html">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Package.html">Package</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
         </header>
-        <main class="container my-5">
-             <div class="package">
-        <h2>Standard Package</h2>
-        <p class="price">P1,500</p>
-        <ul>
-            <li>Event consultation</li>
-            <li>Basic décor setup</li>
-            <li>Setup & breakdown</li>
-        </ul>
+        
+          <main class="container my-5">
+
+    <h1 class="text-center mb-5">Packages Offered</h1>
+
+    <div class="row g-4">
+
+        <!-- Standard Package -->
+        <div class="col-md-4">
+
+            <div class="card h-100 shadow-sm">
+
+                <div class="card-body text-center">
+
+                    <h2 class="card-title">Standard Package</h2>
+
+                    <h3 class="text-primary">P1,500</h3>
+
+                    <ul class="list-group list-group-flush mt-3">
+
+                        <li class="list-group-item">Event consultation</li>
+
+                        <li class="list-group-item">Basic décor setup</li>
+
+                        <li class="list-group-item">Setup & breakdown</li>
+
+                    </ul>
+
+                    <a href="Contact.html" class="btn btn-primary mt-4">
+                        Book Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Luxury Package -->
+        <div class="col-md-4">
+
+            <div class="card h-100 shadow-sm border-warning">
+
+                <div class="card-body text-center">
+
+                    <h2 class="card-title">Luxury Package</h2>
+
+                    <h3 class="text-warning">P3,500</h3>
+
+                    <ul class="list-group list-group-flush mt-3">
+
+                        <li class="list-group-item">Full event planning</li>
+
+                        <li class="list-group-item">Theme design & styling</li>
+
+                        <li class="list-group-item">Vendor coordination</li>
+
+                        <li class="list-group-item">On-the-day support</li>
+
+                    </ul>
+
+                    <a href="Contact.html" class="btn btn-warning mt-4">
+                        Book Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Royalty Package -->
+        <div class="col-md-4">
+
+            <div class="card h-100 shadow-lg border-danger">
+
+                <div class="card-body text-center">
+
+                    <h2 class="card-title">Royalty Package</h2>
+
+                    <h3 class="text-danger">P7,000</h3>
+
+                    <ul class="list-group list-group-flush mt-3">
+
+                        <li class="list-group-item">Custom décor & design</li>
+
+                        <li class="list-group-item">Venue sourcing</li>
+
+                        <li class="list-group-item">Entertainment booking</li>
+
+                        <li class="list-group-item">Full-day coordination team</li>
+
+                    </ul>
+
+                    <a href="Contact.html" class="btn btn-danger mt-4">
+                        Book Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="package">
-        <h2>luxury Package</h2>
-        <p class="price">P3,500</p>
-        <ul>
-            <li>Full event planning</li>
-            <li>Theme design & styling</li>
-            <li>Vendor coordination</li>
-            <li>On-the-day support</li>
-        </ul>
-    </div>
-
-    <div class="package">
-        <h2>Royality Package</h2>
-        <p class="price">P7,000</p>
-        <ul>
-            <li>Custom décor & design</li>
-            <li>Venue sourcing</li>
-            <li>Entertainment booking</li>
-            <li>Full-day coordination team</li>
-        </ul>
-    </div>
+</main>
         
         </main>
 

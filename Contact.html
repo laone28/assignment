@@ -1,79 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <!-- Bootstrap CSS --> 
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-    <!-- Bootstrap JS and dependencies --> 
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    <header>
-        <h1>Contact</h1>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        <nav>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Service.html">Service</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="Gallery.html">Gallery</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="Package.html">Packages</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="Contact.html">Contact</a>
-                        </li>
-                    </ul>
-        </nav>
-        </header>
-        <main class="container my-5"></main>
-        <h2>Contact Us</h2>
-        <p>We would love to hear from you! Please fill out the form below or
-  <form method="POST">
+            <a class="navbar-brand" href="#">Party Planners</a>
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <span class="navbar-toggler-icon"></span>
 
-    <label for="locatin">Location</label>
-    <select id="location" name="location">
-      <option value="Ramotswa">Ramotswa</option>
-      <option value="Gaborone">Gaborone</option>
-      <option value="Mochudi">Mochudi</option>
+            </button>
 
-    </select>
+            <div class="collapse navbar-collapse" id="navbarNav">
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                <ul class="navbar-nav ms-auto">
 
-  <input type="submit" value="Submit">
- </form>
-       <p>For more information, feel free to email me at <a href="mailto:Party Planners@Celebration.com">Party Planners@Celebration.com</a>.</p>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Service.html">Service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Package.html">Packages</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+
+        <h2 class="mb-4">Contact Us</h2>
+
+        <p>
+            We would love to hear from you! Please fill out the form below.
+        </p>
+
+        <!-- Form -->
+        <form id="contactForm">
+
+            <div class="mb-3">
+                <label for="fname" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="fname" name="firstname" placeholder="Your name">
+            </div>
+
+            <div class="mb-3">
+                <label for="lname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lname" name="lastname" placeholder="Your last name">
+            </div>
+
+            <div class="mb-3">
+                <label for="location" class="form-label">Location</label>
+
+                <select class="form-select" id="location" name="location">
+
+                    <option value="Ramotswa">Ramotswa</option>
+                    <option value="Gaborone">Gaborone</option>
+                    <option value="Mochudi">Mochudi</option>
+
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+
+                <textarea class="form-control"
+                    id="subject"
+                    name="subject"
+                    placeholder="Write something.."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                Submit
+            </button>
+
+        </form>
+
+        <p class="mt-4">
+            For more information, email us at
+            <a href="mailto:PartyPlanners@Celebration.com">
+                PartyPlanners@Celebration.com
+            </a>
+        </p>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2025 LAONE MOLAPISI</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <!-- Simple Form Script -->
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            alert("Form submitted successfully!");
+
+        });
+    </script>
+
 </body>
-</html>
-        
-        </main>
 
-        <footer>
-      <p>&copy; 2025 LAONE MOLAPISI</p>
-        </footer>
-        </body>
-        </html>
+</html>
